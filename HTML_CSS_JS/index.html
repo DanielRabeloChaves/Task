@@ -4,36 +4,30 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Task</title>
-  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <title>LoginTask</title>
+  <link href="css/Login.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-
   <section>
-    <img id="Logo" src="img/Logo.png" alt="Logo" />
+    <div class="Logo">
+      <img id="Imagem" src="img/Logo.png" alt="Logo" />
+    </div>
   </section>
 
-  <article>
-    <form method="POST" action="/paginas/home.html">
-      <label for="input-login">Login</label>
-      <input id="input-login" type="text" placeholder="exemplo@gmail.com" required />
-
-      <label for="input-senha">Senha</label>
-      <input id="input-senha" type="password" />
-
-
-      <input id="salvar-login" type="checkbox" />
-      <label for="salvar-login">Salvar login</label>
-
-      <input type="submit" value="Login" />
-      <input type="reset" value="Limpar" />
-    </form>
-  </article>
-
-  
-
+  <aside>
+    <div class="Login">
+      <h2>Login</h2>
+      <button id="FACE" type="submit"><img id="imgFACEBOOK" src="img/Facebook.png" alt="Facebook">Facebook</button>
+      <button id="GOOGLE" type="submit"><img id="imgGOOGLE" src="img/Google.png" alt="Google">Google</button>
+      <form method="POST" action="/paginas/home.html">
+        <input id="input-login" type="text" placeholder="Usuario" required />
+        <input id="input-senha" type="password" placeholder="Senha" required/>
+        <button id="ENTRAR" type="submit">ENTRAR</button>
+        <a id="CriarConta" href="#"><p>Ainda não possui uma conta? Clique aqui.</p></a>
+      </form>
+    </div>
+  </aside>
 
 </body>
-
 </html>
