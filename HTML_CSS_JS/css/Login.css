@@ -19,6 +19,7 @@ section {
   width: 65%;
   margin: auto;
   text-align: center;
+  color:rgb(8, 104, 8);
 }
 form {
   max-width: 60%;
@@ -64,13 +65,11 @@ select {
   color: #FFF;
   background-color: #357CE7;
   font-size: 23px;
-  text-align: center;
   border: none;
   width: 24%;
 }
 #GOOGLE{
   margin-top: 30px;
-  text-align: center;
   padding: 10px;
   color: rgb(0, 0, 0);
   background-color: #e8eeef;
@@ -93,5 +92,8 @@ select {
   height: 32px;  
   width: 32px;
   float: left;
+}
+a:link{
+  text-decoration: none;
 }
 

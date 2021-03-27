@@ -1,0 +1,142 @@
+body{
+    font: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    width: 1340px;
+    
+}
+.cabeçalho{
+    background-color: #22262E;
+    height: 60px;
+}
+span{
+    position: relative;
+    top: 18px;
+    color: white;
+}
+a:link{
+    text-decoration: none;
+}
+#Logo1 {
+    float: left;
+    position: relative;
+    bottom:13px;
+    width: 90px;
+    height: 90px;
+    padding-left: 30px;
+}
+#Contatenos{
+    position: relative;
+    left: 80px;
+    font-size: 14px;
+}
+#Noticias{
+    position: relative;
+    left: 130px;
+    font-size: 14px;
+}
+#Ajuda{
+    position: relative;
+    left: 180px;
+    font-size: 14px;
+}
+#txtBusca{
+    position:relative;
+    top: 18px;
+    left: 400px;
+    background-color:rgb(231, 229, 229);
+    font-style:italic;
+    font-size:14px;
+    height:20px;
+    width:260px;
+    border-radius:5px; 
+  }
+  #Chat{
+    position: relative;
+    top: 18px;
+    left: 450px;
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 70px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+  }
+ #MiniFoto{
+    position: relative;
+    top:13px;
+    left: 500px;
+    right: 120px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(151, 153, 151);
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+ }
+ .Perfil {
+    background-color:#376878;
+    height: 400px;
+ }
+ #Foto{
+    position: relative;
+    top: 90px;
+    color: rgb(0, 0, 0);
+    background-color: #C4C4C4;
+    width: 170px;
+    height: 170px;
+    border: none;
+    border-radius: 50%;
+    font-size: 50px;
+ }
+ #Dados{
+    position: relative;
+    left: 350px;
+    bottom: 70px;
+    width: 370px;
+    height: 150px;
+    
+  }
+  #encontreTrabalho{
+    position: relative;
+    left: 1100px;
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 15px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+  }
+  .Serviços{
+    position: relative;
+    bottom: 30px;
+    background-color: #e7e6e6;
+    width: 1200px;
+    height: 500px;
+    margin: 60px;
+  }
+  .Serviços > h2{
+      position: relative;
+      top:30px;
+  }
+  #ServiçosPrestados{
+    color: rgb(255, 255, 255);
+    background-color:#343C47;
+    font-size: 15px;
+    width: 1000px;
+    height: 150px;
+    border: none;
+  }
+  #valorTotal{
+      color: green;
+  }
+  .ServiçosPrestados{
+    width: 370px;
+    height: 150px;
+    text-align: left;
+    background-color: #189634;
+  }
+
+

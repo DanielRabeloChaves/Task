@@ -1,33 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>LoginTask</title>
+  <title>Login</title>
   <link href="css/Login.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body>
   <section>
     <div class="Logo">
       <img id="Imagem" src="img/Logo.png" alt="Logo" />
     </div>
   </section>
-
   <aside>
     <div class="Login">
       <h2>Login</h2>
       <button id="FACE" type="submit"><img id="imgFACEBOOK" src="img/Facebook.png" alt="Facebook">Facebook</button>
       <button id="GOOGLE" type="submit"><img id="imgGOOGLE" src="img/Google.png" alt="Google">Google</button>
       <form method="POST" action="/paginas/home.html">
-        <input id="input-login" type="text" placeholder="Usuario" required />
-        <input id="input-senha" type="password" placeholder="Senha" required/>
+        <input id="input-login" type="email" placeholder="E-mail" required />
+        <input id="input-senha" type="password" placeholder="Senha" required />
         <button id="ENTRAR" type="submit">ENTRAR</button>
-        <a id="CriarConta" href="#"><p>Ainda não possui uma conta? Clique aqui.</p></a>
+        <a id="CriarConta" href="#">
+          <p>Ainda não possui uma conta? Clique aqui.</p>
+        </a>
       </form>
     </div>
   </aside>
-
 </body>
 </html>
