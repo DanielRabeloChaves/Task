@@ -1,0 +1,91 @@
+body {
+    font: 100%;
+    font-family: Verdana, Geneva, Tahoma;
+    width: 1340px;
+    margin: auto;
+  }
+.cabeçalho{
+    background-color: #22262E;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 1;
+}
+header span{
+    color: white;
+    font-size: 14px;
+}
+#Logo1 {
+    width: 90px;
+    height: 90px;
+}
+#Ajuda{
+    display: grid;
+    grid-template-columns: 200px;
+}
+a:link{
+    text-decoration: none;
+}
+#Busca{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}
+article{
+    background-color:#376878;
+}
+.baner{
+    display: flex;
+    font-size: 45px;
+    align-items: center;
+}
+.cor{
+    color: #122536;
+}
+article p{
+    width: 600px;
+    color: white;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #22262E;
+    color: gainsboro;
+    font-size: 15px;
+    align-items: center;
+}
+#button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: rgb(59, 59, 59);
+    background-color: white;
+    margin-bottom: 10px;
+}
+aside h1{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.divi{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.container{
+    width: 225px;
+}
+#Publicar{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
