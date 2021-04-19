@@ -1,33 +1,33 @@
 body {
-    font: 100%;
-    font-family: Verdana, Geneva, Tahoma;
-    width: 1340px;
+    font: 100% Lucida Sans, Verdana;
+    width: 1340;
     margin: auto;
-  }
-.cabeçalho{
+}
+header {
     background-color: #22262E;
-    height: 60px;
+    flex-basis: 40%;
+}
+.cabeçalho{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    flex-grow: 1;
-}
-header span{
-    color: white;
-    font-size: 14px;
-}
-#Logo1 {
-    width: 90px;
-    height: 90px;
+    
 }
 #Ajuda{
     display: grid;
     grid-template-columns: 200px;
 }
-a:link{
+header span{
+    color: white;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+header a:link{
     text-decoration: none;
 }
-#Busca{
+header button{
     color: rgb(255, 255, 255);
     background-color: #189634;
     font-size: 14px;
@@ -35,36 +35,22 @@ a:link{
     height: 30px;
     border: none;
 }
-article{
+section article{
     background-color:#376878;
+    padding: 15px;
+    font-size: 30px;
 }
 .baner{
     display: flex;
     font-size: 45px;
     align-items: center;
 }
-.cor{
-    color: #122536;
-}
-article p{
+section article p{
     width: 600px;
     color: white;
 }
-footer{
-    display: flex;
-    flex-direction: column;
-    background-color: #22262E;
-    color: gainsboro;
-    font-size: 15px;
-    align-items: center;
-}
-#button{
-    width: 200px;
-    height: 30px;
-    border: none;
-    color: rgb(59, 59, 59);
-    background-color: white;
-    margin-bottom: 10px;
+section article span{
+    color: #122536;
 }
 aside h1{
     margin-left: 20px;
@@ -88,4 +74,93 @@ aside h1{
     border: none;
     margin-bottom: 40px;
     margin-left: 20px;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #22262E;
+    color: gainsboro;
+    font-size: 15px;
+    align-items: center;
+}
+#button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: rgb(59, 59, 59);
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+@media(max-width: 900px){
+    body{
+      width:auto;
+      display: inline-block;
+    }
+  section {
+    display: flex;
+    flex-direction: column;
+    }
+    .cabeçalho{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 25px;
+    }
+    #Ajuda{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 25px;
+    }
+    .baner{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .divi{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .container{
+        width: 700px;
+    }
+    #Publicar{
+        color: rgb(255, 255, 255);
+        background-color: #189634;
+        font-size: 30px;
+        width: 420px;
+        height: 60px;
+        border: none;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+    #button{
+        width: 420px;
+        height: 60px;
+        border: none;
+        color: rgb(59, 59, 59);
+        background-color: white;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    header img{
+        width: 220px;
+        height: 220px;
+    }
+    header button{
+        color: rgb(255, 255, 255);
+        background-color: #189634;
+        font-size: 25px;
+        width: 400px;
+        height: 50px;
+        border: none;
+        margin-bottom: 20px;
+    }
 }
