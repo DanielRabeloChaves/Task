@@ -133,8 +133,9 @@ footer{
         width: 420px;
         height: 60px;
         border: none;
-        margin-bottom: 40px;
-        margin-left: 20px;
+    }
+    aside h1{
+        font-size: 35px;
     }
     footer{
         display: flex;
