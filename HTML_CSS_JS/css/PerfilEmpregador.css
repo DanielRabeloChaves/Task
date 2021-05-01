@@ -68,7 +68,7 @@ aside{
     margin-right: 50px;
 }
 aside img{
-    width: 250px;
+    width: 270px;
     height: 250px;
 }
 .Fotos{
@@ -255,6 +255,7 @@ footer{
         height: 50px;
         border: none;
         border-radius: 20px;
+        margin-bottom: 10px;
     }
     #Chat2{
         color: rgb(255, 255, 255);

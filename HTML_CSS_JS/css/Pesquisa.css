@@ -1,0 +1,124 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    width: 1340px;
+    margin: auto;
+}
+header {
+    background-color: #22262E;
+    flex-basis: 40%;
+}
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+#Ajuda{
+    display: grid;
+    grid-template-columns: 600px;
+}
+header span{
+    color: white;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+header a:link{
+    text-decoration: none;
+}
+#MiniFoto{
+    color: rgb(0, 0, 0);
+    background-color: rgb(151, 153, 151);
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    border-radius: 50%;
+}
+ #Chat{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+}
+section{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    display: flex;
+}
+article h1{
+    font-size: 35px;
+    text-align: center;
+}
+article{
+    display: flex;
+    font-size: 13px;
+    background-color: rgb(231, 230, 230);
+    padding: 15px;
+    width: 300px;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+select{
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    border: none;
+}
+section aside{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap:30px;
+    color: rgb(87, 85, 85);
+}
+aside input{
+    font-size: 15px;
+    width: 850px;
+    height: 50px;
+    background-color: rgb(231, 230, 230);
+    border: none;
+}
+aside img{
+    width: 100px;
+    height: 100px;
+}
+.ResultadoBusca{
+    background-color: #22262E;
+    flex-basis: 100%;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#Resultado{
+    display: flex;
+    justify-content: space-around;
+    color: rgb(255, 255, 255);
+    background-color:#343C47;
+    font-size: 15px;
+    width: 800px;
+    height: 150px;
+    border: none;
+}
+
+
+
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #22262E;
+    color: gainsboro;
+    font-size: 15px;
+    align-items: center;
+}
+#button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: rgb(59, 59, 59);
+    background-color: white;
+    margin-bottom: 10px;
+}
