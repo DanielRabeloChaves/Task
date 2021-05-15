@@ -71,10 +71,8 @@ select{
 }
 section aside{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    row-gap:30px;
     color: rgb(87, 85, 85);
+    flex-direction: column;
 }
 aside input{
     font-size: 15px;
@@ -84,28 +82,32 @@ aside input{
     border: none;
 }
 aside img{
-    width: 100px;
-    height: 100px;
-}
-.ResultadoBusca{
-    background-color: #22262E;
-    flex-basis: 100%;
-    margin-left: 50px;
-    margin-right: 50px;
-}
-#Resultado{
+    width: 200px;
+    height: 200px;
+    background-color: white;
     display: flex;
-    justify-content: space-around;
-    color: rgb(255, 255, 255);
-    background-color:#343C47;
-    font-size: 15px;
-    width: 800px;
-    height: 150px;
-    border: none;
+    justify-content: flex-start;
 }
-
-
-
+.resultado{
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(231, 230, 230);
+    flex-direction: column;
+}
+.perfilResultado{
+    display: flex;
+    margin: 20px;
+    background-color: #22262E;
+    color: white;
+    width: 810px;
+    height: 200px;  
+}
+#txt{
+    margin-left: 20px;
+}
+aside a:link{
+    text-decoration: none;
+}
 footer{
     display: flex;
     flex-direction: column;
@@ -122,3 +124,96 @@ footer{
     background-color: white;
     margin-bottom: 10px;
 }
+
+@media(max-width: 1024px){
+    body{
+      width:auto;
+      display: inline-block;
+    }
+  section {
+    display: flex;
+    flex-direction: column;
+    }
+    .cabeçalho{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 40px;
+    }
+    #Ajuda{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 40px;
+    }
+    #MiniFoto{
+        color: rgb(0, 0, 0);
+        background-color: rgb(151, 153, 151);
+        width: 150px;
+        height: 150px;
+        border: none;
+        font-size: 25px;
+        border-radius: 50%;
+        font-size: 60px;
+    } 
+    #Chat{
+        color: rgb(255, 255, 255);
+        background-color: #189634;
+        font-size: 40px;
+        width: 250px;
+        height: 50px;
+        border: none;
+        border-radius: 20px;
+    }
+    section article{
+        display: none;
+    }
+    aside img{
+        margin-top: 25px;
+        width: 300px;
+        height: 300px;
+        background-color: white;
+    }
+    aside input{
+        font-size: 30px;
+        width: 850px;
+        height: 90px;
+        background-color: rgb(231, 230, 230);
+        border-radius: 10px;
+    }
+    .resultado{
+        margin-top: 50px;
+        display: flex;
+        background-color: rgb(231, 230, 230);
+        flex-direction: column;
+        font-size: 30px;
+    }
+    .perfilResultado{
+        display: flex;
+        margin: 20px;
+        background-color: #22262E;
+        color: white;
+        width: 810px;
+        height: 350px;  
+    }
+    .perfilResultado h6{
+        display: none;
+    }
+    #txt{
+        margin-left: 20px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 40px;
+    }
+    #button{
+        width: 420px;
+        height: 60px;
+        border: none;
+        color: rgb(59, 59, 59);
+        background-color: white;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+ }
