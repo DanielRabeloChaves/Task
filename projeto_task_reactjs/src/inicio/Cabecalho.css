@@ -1,0 +1,32 @@
+header {
+    background-color: #22262E;
+    flex-basis: 40%;
+}
+header a:link{
+    text-decoration: none;
+}
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+#Ajuda{
+    display: grid;
+    grid-template-columns: 200px;
+}
+span{
+    color: white;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+button{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border: none;
+}

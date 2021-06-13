@@ -1,0 +1,22 @@
+
+.Filtro h1{
+    font-size: 35px;
+    text-align: center;
+}
+.Filtro{
+    display: flex;
+    font-size: 13px;
+    background-color: rgb(231, 230, 230);
+    padding: 15px;
+    width: 300px;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.Filtro select{
+    font-size: 15px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    color: black;
+}

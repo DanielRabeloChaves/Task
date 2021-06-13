@@ -1,0 +1,58 @@
+.Formulario{
+    background-color: #22262E;
+    flex-basis: 40%;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.Formulario img{
+    width: 270px;
+    height: 250px;
+}
+.Fotos{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+#nome{
+    font-size: 35px;
+    display: grid;
+    grid-template-columns: 600px;
+}
+.subTitulo{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+.texto{
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    font-weight: bolder;
+    width: 550px;
+}
+.texto span{
+    color: rgb(20, 187, 20);
+}
+.candidatar{
+    margin-left: 60px;
+    margin-right: 60px;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+#ButtonCandidatar{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    margin-right: 50px;
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+}

@@ -1,0 +1,49 @@
+header {
+    background-color: #22262E;
+    flex-basis: 40%;
+}
+.cabeçalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+}
+#Ajuda{
+    display: grid;
+    grid-template-columns: 250px;
+}
+header span{
+    color: white;
+}
+header img{
+    width: 100px;
+    height: 100px;
+}
+header a:link{
+    text-decoration: none;
+}
+#MiniFoto{
+    color: rgb(0, 0, 0);
+    background-color: rgb(151, 153, 151);
+    width: 50px;
+    height: 50px;
+    border: none;
+    font-size: 25px;
+    border-radius: 50%;
+}
+ #Chat{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+}
+#txtBusca{
+    background-color:rgb(231, 229, 229);
+    font-style:italic;
+    font-size:14px;
+    height: 20px;
+    width:260px;
+    border-radius:5px; 
+}

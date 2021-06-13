@@ -1,11 +1,25 @@
 import React from 'react';
+
+import {BrowserRouter,Switch,Route} from 'react-router-dom'
+
 import LoginScreen from './login/LoginScreen';
+import InicioScreen from './inicio/InicioScreen';
+import PerfilScreen from './perfil/PerfilScreen';
+import PerfilEmpregadorScreen from './perfilEmpregador/PerfilEmpregadorScreen';
+import PesquisaScreen from './pesquisa/PesquisaScreen'
 
 function App() {
   return (
-    <>
-      <LoginScreen/>
-    </>
+    <BrowserRouter>
+      <Switch>
+        <Route exact={true} path='/'><InicioScreen/></Route>
+        <Route path='/inicio'><InicioScreen/></Route>
+        <Route path='/login'><LoginScreen/></Route>
+        <Route path='/perfil'><PerfilScreen/></Route>
+        <Route path='/vaga'><PerfilEmpregadorScreen/></Route>
+        <Route path='/pesquisa'><PesquisaScreen/></Route>
+      </Switch>
+    </BrowserRouter>
   )
 }
 

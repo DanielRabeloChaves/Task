@@ -1,14 +1,14 @@
 import React from 'react'
 import './LoginScreen.css'
 
-import Section from './Section'
-import Aside from './Aside'
-// eslint-disable-next-line import/no-anonymous-default-export
+import Login from './Login'
+
 export default () => {
-    return(
+    return (
         <body>
-           <Section />
-           <Aside />
-        </body>
+            <section>
+                <Login/>
+            </section>
+        </body>  
     )
 }

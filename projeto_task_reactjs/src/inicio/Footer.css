@@ -1,0 +1,16 @@
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: #22262E;
+    color: gainsboro;
+    font-size: 15px;
+    align-items: center;
+}
+#button{
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: rgb(59, 59, 59);
+    background-color: white;
+    margin-bottom: 10px;
+}

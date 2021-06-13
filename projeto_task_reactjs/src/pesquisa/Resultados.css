@@ -1,0 +1,41 @@
+.gambiarra{
+    margin-bottom: 70px;
+    margin-top: 70px;
+    display: flex;
+}
+.ResultadoBusca{
+    display: flex;
+    color: rgb(87, 85, 85);
+    flex-direction: column;
+}
+.ResultadoBusca input{
+    font-size: 15px;
+    width: 850px;
+    height: 50px;
+    background-color: rgb(231, 230, 230);
+    border: none;
+}
+.ResultadoBusca img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+}
+.resultado{
+    margin-top: 50px;
+    display: flex;
+    background-color: rgb(231, 230, 230);
+    flex-direction: column;
+}
+.perfilResultado{
+    display: flex;
+    margin: 20px;
+    background-color: #22262E;
+    color: white;
+    width: 810px;
+    height: 200px;  
+}
+#txt{
+    margin-left: 20px;
+}

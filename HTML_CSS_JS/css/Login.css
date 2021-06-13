@@ -81,12 +81,7 @@ select {
 #CriarConta {
   color:black;
 }
-#imgFACEBOOK {
-  background-image: url("img/Facebook.png");
-  height: 32px;  
-  width: 32px;
-  float: left;
-}
+
 #imgGOOGLE {
   background-image: url("img/Google.png");
   height: 32px;  

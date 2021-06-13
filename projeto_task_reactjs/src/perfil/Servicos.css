@@ -1,0 +1,54 @@
+.Serviços{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 30px;
+    background-color: #e7e6e6;
+    width: 1200px;
+    height: 1000px;
+    margin: 60px;
+  }
+  .Serviços > h2{
+      display: flex;
+      justify-content: center;
+  }
+  #ServiçosPrestados{
+    display: flex;
+    color: rgb(255, 255, 255);
+    background-color:#343C47;
+    margin-top: 50px;
+    font-size: 15px;
+    width: 1000px;
+    height: 150px;
+    border: none;
+  }
+  .primeiro{
+      display: flex;
+      flex-direction: column;
+      margin-left: 40px;
+  }
+  .segundo{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end ;
+      justify-content: space-around;
+      margin-left: 450px;
+  }
+  #valorTotal{
+    color: rgb(29, 228, 29);
+  }
+  #Data{
+    right: 100px;
+  }
+  #chat1{
+    background-color: #189634;
+    font-size: 14px;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 20px;
+  }
+  #FotoContratante{
+    width: 200px;
+    height: 150px;
+  }

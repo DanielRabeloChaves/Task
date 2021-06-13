@@ -1,0 +1,23 @@
+#Funcionamento{
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 25px;
+}
+.divi{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.container{
+    width: 225px;
+}
+#Publicar{
+    color: rgb(255, 255, 255);
+    background-color: #189634;
+    font-size: 14px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}

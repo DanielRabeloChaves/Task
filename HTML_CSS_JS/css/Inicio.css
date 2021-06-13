@@ -10,8 +10,7 @@ header {
 .cabeçalho{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    
+    justify-content: space-around;  
 }
 #Ajuda{
     display: grid;
@@ -97,7 +96,7 @@ footer{
       width:auto;
       display: inline-block;
     }
-  section {
+    section {
     display: flex;
     flex-direction: column;
     }

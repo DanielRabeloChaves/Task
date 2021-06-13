@@ -1,0 +1,15 @@
+
+.baner{
+    display: flex;
+    font-size: 45px;
+    align-items: center;
+    background-color:#376878;
+    font-size: 30px;
+}
+.baner p{
+    width: 600px;
+    color: white;
+}
+.cor{
+    color: #122536;
+}

@@ -1,6 +1,60 @@
-body{
-    font: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    font: 100% Lucida Sans, Verdana;
+    width: 1340px;
     margin: auto;
 }
 
+@media(max-width: 900px){
+    body{
+      width:auto;
+      display: inline-block;
+    }
+    #logoLogin{
+        display: none;
+    }
+    .Linha{
+        display: none;
+    }
+    section .Login{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        font-size: 30px;
+        color:rgb(8, 104, 8);
+        background-color: rgb(255, 255, 255);
+      }
+        section #input-login,
+        section #input-senha,
+        section #ENTRAR{
+            border: none;
+            border-radius: 5px;
+            font-size: 30px;
+            padding: 05px;
+            width: 200px;
+            background-color: #e8eeef;
+            color: #000000;
+            margin-bottom: 30px;
+            margin-top: 20px;
+      }
+     
+      section #ENTRAR {
+        color: #FFF;
+        background-color: blue;
+        font-size: 30px;
+        border-radius: 30px;
+        border: none;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 0px;
+      }
+      section #CriarConta {
+          font-size: 20px;
+        color:black;
+      }
+      section #imgFACEBOOK{
+        display: none;
+      }
+      section #imgGOOGLE{
+        display: none;
+      }
+}

@@ -1,0 +1,62 @@
+.Login{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color:rgb(8, 104, 8);
+    background-color: rgb(214, 236, 229);
+    border-radius: 30px;
+  }
+  .form {
+    max-width: 60%;
+    margin: 53px auto;
+  }
+  #input-login,
+  #input-senha,
+  #ENTRAR{
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 20px;
+    width: 400px;
+    background-color: #e8eeef;
+    color: #000000;
+    margin-bottom: 30px;
+    margin-top: 20px;
+  }
+  #ENTRAR {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    color: #FFF;
+    background-color: blue;
+    font-size: 20px;
+    border-radius: 30px;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 200px;
+  }
+  #CriarConta {
+    color:black;
+  }
+  #imgFACEBOOK{
+    height: 30x;  
+    width: 200px; 
+    padding: 20px;
+  }
+  #imgGOOGLE{
+    height: 40px;  
+    width: 200px; 
+    padding: 20px;
+    margin-bottom: 5px;
+  }
+  a:link{
+    text-decoration: none;
+  }
+  .Linha{
+    height: 600px;  
+    width: 2px; 
+    background-color: rgba(31, 199, 59, 0.753);
+  }
+
+ 

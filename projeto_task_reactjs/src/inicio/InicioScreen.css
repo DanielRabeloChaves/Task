@@ -1,0 +1,80 @@
+body {
+    font: 100% Lucida Sans, Verdana;
+    width: 1340px;
+    margin: auto;
+}
+@media(max-width: 900px){
+    body{
+      width:auto;
+      display: inline-block;
+    }
+    section {
+    display: flex;
+    flex-direction: column;
+    }
+    header .cabeçalho{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 25px;
+    }
+    header #Logo1{
+        width: 220px;
+        height: 220px;
+    }
+    header #Ajuda{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        font-size: 25px;
+    }
+    article .baner, .cor{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 60px;
+    }
+    aside .divi{
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+    aside .container{
+        width: 700px;
+    }
+    aside #Publicar{
+        color: rgb(255, 255, 255);
+        background-color: #189634;
+        font-size: 30px;
+        width: 420px;
+        height: 60px;
+        border: none;
+    }
+    aside h1{
+        font-size: 35px;
+    }
+    footer p , span {
+        display: flex;
+        flex-direction: column;
+        font-size: 30px;
+    }
+    footer #button{
+        width: 420px;
+        height: 60px;
+        border: none;
+        color: rgb(59, 59, 59);
+        background-color: white;
+        margin-bottom: 10px;
+        font-size: 30px;
+    }
+    
+    header button{
+        color: rgb(255, 255, 255);
+        background-color: #189634;
+        font-size: 25px;
+        width: 400px;
+        height: 50px;
+        border: none;
+        margin-bottom: 20px;
+    }
+}
