@@ -16,7 +16,7 @@ export default () => {
         <span id="Ajuda">Ajuda</span>
         
         <input type="text" id="txtBusca" placeholder="Pesquisar Projeto..." />
-        <button id="Chat" type="submit">Chat</button>
+        <button onClick={()=>history.push('./chat')} id="Chat" type="submit">Chat</button>
         <button onClick={() => history.push('./perfil')} id="MiniFoto" type="button">F</button>
         <span onClick={()=>history.push('./inicio')}>Sair</span>
     </div>

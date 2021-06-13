@@ -18,7 +18,7 @@ export default () => {
                 <span id="valorTotal">Valor Total: R$00,00</span>
             </div>
             <div className="segundo">
-                <button id="chat1">chat</button>
+                <button onClick={()=>history.push('./chat')} id="chat1">chat</button>
                 <span onClick={()=>history.push('./vaga')} id="Data">DATA XX/YY/ZZ</span> 
             </div>   
     </div>

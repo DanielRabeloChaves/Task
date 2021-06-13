@@ -7,6 +7,7 @@ import InicioScreen from './inicio/InicioScreen';
 import PerfilScreen from './perfil/PerfilScreen';
 import PerfilEmpregadorScreen from './perfilEmpregador/PerfilEmpregadorScreen';
 import PesquisaScreen from './pesquisa/PesquisaScreen'
+import ChatScreen from './chat/ChatScreen';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Route path='/perfil'><PerfilScreen/></Route>
         <Route path='/vaga'><PerfilEmpregadorScreen/></Route>
         <Route path='/pesquisa'><PesquisaScreen/></Route>
+        <Route path='/chat'><ChatScreen/></Route>
       </Switch>
     </BrowserRouter>
   )

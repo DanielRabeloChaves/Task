@@ -1,0 +1,85 @@
+.TituloChat{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.Mandar{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.conversar {
+    font-size: 15px;
+    width: 650px;
+    height: 50px;
+    background-color: rgb(231, 230, 230);
+    border: none;
+    border-radius: 10px;
+    
+}
+.Chat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 05px;
+    width: 900px;
+    margin: 10px 0;
+  }
+  
+  /* Darker chat container */
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+  
+  /* Clear floats */
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  /* Style images */
+  .container img {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+  
+  /* Style the right image */
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+  
+  /* Style time text */
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+  
+  /* Style time text */
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  #Enviar{
+      height: 50px;
+      width: 100px;
+      border-radius: 40px;
+  }
+  #VoltarPagina{
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 800px;
+  }
