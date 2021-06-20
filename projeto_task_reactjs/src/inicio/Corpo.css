@@ -8,7 +8,7 @@
     justify-content: space-around;
     margin-bottom: 30px;
 }
-.container{
+.containerCorpo{
     width: 225px;
 }
 #Publicar{
@@ -20,4 +20,27 @@
     border: none;
     margin-bottom: 40px;
     margin-left: 20px;
+}
+@media(max-width: 1024px){
+    #Funcionamento{
+        margin-left: 20px;
+        margin-top: 40px;
+        font-size: 60px;
+    }
+    .divi{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        font-size: 50px;
+    }
+    .containerCorpo{
+        width: 1000px;
+    }
+    #Publicar{
+        font-size: 50px;
+        width: 800px;
+        height: 100px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
 }

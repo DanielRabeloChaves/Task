@@ -14,3 +14,13 @@ footer{
     background-color: white;
     margin-bottom: 10px;
 }
+@media(max-width: 1024px){
+    footer{
+        font-size: 40px;
+    }
+    #button{
+        width: 600px;
+        height: 100px;
+        font-size: 40px;
+    }
+}

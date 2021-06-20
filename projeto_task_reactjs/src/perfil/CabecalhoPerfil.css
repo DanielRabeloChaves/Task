@@ -7,7 +7,7 @@ header {
     align-items: center;
     justify-content: space-around;  
 }
-#Ajuda{
+.Ajuda{
     display: grid;
     grid-template-columns: 250px;
 }
@@ -21,7 +21,7 @@ header img{
 header a:link{
     text-decoration: none;
 }
-#MiniFoto{
+.MiniFoto{
     color: rgb(0, 0, 0);
     background-color: rgb(151, 153, 151);
     width: 50px;
@@ -30,7 +30,7 @@ header a:link{
     font-size: 25px;
     border-radius: 50%;
 }
- #Chat{
+ .Chat{
     color: rgb(255, 255, 255);
     background-color: #189634;
     font-size: 14px;
@@ -39,11 +39,41 @@ header a:link{
     border: none;
     border-radius: 20px;
 }
-#txtBusca{
+.txtBusca{
     background-color:rgb(231, 229, 229);
     font-style:italic;
     font-size:14px;
     height: 20px;
     width:260px;
     border-radius:5px; 
+}
+
+@media(max-width: 1024px){
+    .cabeçalho{
+        display: flex;
+        font-size: 50px; 
+    }
+    .Ajuda{
+        display: grid;
+        grid-template-columns: 150px;
+    }
+    .cabeçalho span{
+        margin-top: 40px;
+    }
+    .Logo1{
+       width: 300px;
+       height: 300px;
+    }
+    .MiniFoto{
+        display: none;
+    }
+    .Chat{
+        margin-top: 40px;
+        font-size: 50px;
+        width: 400px;
+        height: 80px;
+    }
+    .txtBusca{
+        display: none;
+    }
 }

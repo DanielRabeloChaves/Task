@@ -7,8 +7,8 @@ import './Contatos.css'
 export default () => {
     const history = useHistory()
     return (
-        <div className="Chat">
-            <div className="TituloChat">
+        <div className="Chat5">
+            <div className="ChatVoltar">
                 <button onClick={()=>history.goBack('')} id="VoltarPagina">Voltar</button>
             </div>   
            <div class="container">
@@ -36,7 +36,7 @@ export default () => {
             </div> 
             <div className="Mandar">
                 <input className="conversar" type="text" placeholder="Digite uma mensagem" required />
-                <button id="Enviar">Enviar</button>
+                <button className="Enviar">Enviar</button>
             </div>
                
         </div>  

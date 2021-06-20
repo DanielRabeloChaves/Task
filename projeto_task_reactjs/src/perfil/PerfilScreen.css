@@ -1,6 +1,11 @@
-body{
-    font: 100%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    margin: auto;
-    width: 1340px; 
+body {
+  font: 100% Lucida Sans, Verdana;
+  width: 1340px;
+  margin: auto;
+}
+@media(max-width: 1024px){
+  body{
+    width:auto;
+    display: inline-block;
+  }
 }

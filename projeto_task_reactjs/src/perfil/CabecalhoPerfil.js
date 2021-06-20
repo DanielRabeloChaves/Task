@@ -10,15 +10,15 @@ export default () => {
 
     return (
     <div className="cabeçalho">
-        <img onClick={() => history.push('./perfil')} id="Logo1" src={logo} alt="Logo" />
+        <img onClick={() => history.push('./perfil')} className="Logo1" src={logo} alt="Logo" />
         <span id="Contatenos">Contate-nos</span>
         <span id="Noticias">Noticias</span>
-        <span id="Ajuda">Ajuda</span>
+        <span className="Ajuda">Ajuda</span>
         
-        <input type="text" id="txtBusca" placeholder="Pesquisar Projeto..." />
-        <button onClick={()=>history.push('./chat')} id="Chat" type="submit">Chat</button>
-        <button onClick={() => history.push('./perfil')} id="MiniFoto" type="button">F</button>
-        <span onClick={()=>history.push('./inicio')}>Sair</span>
+        <input type="text" className="txtBusca" placeholder="Pesquisar Projeto..." />
+        <button onClick={()=>history.push('./chat')} className="Chat" type="submit">Chat</button>
+        <button onClick={() => history.push('./perfil')} className="MiniFoto" type="button">F</button>
+        <span className="Sair" onClick={()=>history.push('./inicio')}>Sair</span>
     </div>
     )
 }

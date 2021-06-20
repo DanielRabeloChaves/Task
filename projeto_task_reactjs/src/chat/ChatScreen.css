@@ -3,3 +3,9 @@ body {
     width: 1340px;
     margin: auto;
 }
+@media(max-width: 1024px){
+    body{
+      width:auto;
+      display: inline-block;
+    }
+}

@@ -11,7 +11,7 @@ export default () => {
     <div className="Serviços">
         <h2>Serviços Prestados</h2>
         <div id="ServiçosPrestados">
-        <img onClick={()=>history.push('./vaga')} id="FotoContratante"src={hotmart1} alt="Foto Contratante"/>
+        <img onClick={()=>history.push('./vaga')} id="FotoContratante2"src={hotmart1} alt="Foto Contratante"/>
             <div onClick={()=>history.push('./vaga')} className="primeiro">
                 <h3>Nome</h3>
                 <h5>SEGUIMENTO DE ATUAÇÃO</h5>
@@ -24,7 +24,7 @@ export default () => {
     </div>
 
         <div id="ServiçosPrestados">
-        <img id="FotoContratante"src={foto} alt="Foto Contratante"/>
+        <img id="FotoContratante2"src={foto} alt="Foto Contratante"/>
             <div className="primeiro">
                 <h3>Nome</h3>
                 <h5>SEGUIMENTO DE ATUAÇÃO</h5>
@@ -37,7 +37,7 @@ export default () => {
         </div>
         
         <div id="ServiçosPrestados">
-        <img id="FotoContratante"src={foto} alt="Foto Contratante"/>
+        <img id="FotoContratante2"src={foto} alt="Foto Contratante"/>
             <div className="primeiro">
                 <h3>Nome</h3>
                 <h5>SEGUIMENTO DE ATUAÇÃO</h5>
@@ -50,7 +50,7 @@ export default () => {
         </div>
 
         <div id="ServiçosPrestados">
-        <img id="FotoContratante"src={foto} alt="Foto Contratante"/>
+        <img id="FotoContratante2"src={foto} alt="Foto Contratante"/>
             <div className="primeiro">
                 <h3>Nome</h3>
                 <h5>SEGUIMENTO DE ATUAÇÃO</h5>

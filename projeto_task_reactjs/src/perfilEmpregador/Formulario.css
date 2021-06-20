@@ -27,6 +27,14 @@
     margin-left: 60px;
     margin-right: 60px;
 }
+.Chat2{
+    background-color: #189634;
+    color:white;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+}
 .texto{
     margin-left: 60px;
     margin-right: 60px;
@@ -55,4 +63,44 @@
     height: 25px;
     border: none;
     border-radius: 20px;
+}
+@media(max-width: 1024px){
+    .Formulario{
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 50px;
+    }
+    .Fotos{
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+    }
+    .Formulario img{
+        width: 320px;
+        height: 320px;
+        margin: 10px;
+    }
+    #nome{
+        font-size: 60px;
+    }
+    .subTitulo{
+        font-size: 40px;
+    }
+    .texto{
+        font-size: 50px;
+        width: auto;
+    }
+    #ButtonCandidatar{
+        font-size: 50px;
+        width: 400px;
+        height: 70px;
+    }
+    .Chat2{
+        width: 200px;
+        height: 60px;
+        font-size: 40px;
+    }
+    .candidatar{
+       font-size: 40px;
+    }
 }

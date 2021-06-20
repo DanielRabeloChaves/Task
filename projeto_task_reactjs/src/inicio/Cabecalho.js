@@ -10,23 +10,23 @@ export default () => {
 
   return (
     <div className="cabeçalho">
-     <img id="Logo1" src={logo} alt="Logo" />
+     <img className="Logo1" src={logo} alt="Logo" />
       <h4 id="Contatenos" >
-        <span>Contate-nos</span>
+        <span className="spanCabecalho">Contate-nos</span>
       </h4>
       <h4 id="Noticias" >
-        <span>Noticias</span>
+        <span className="spanCabecalho">Noticias</span>
       </h4>
-      <h4 id="Ajuda" >
-        <span>Ajuda</span>
+      <h4 className="Ajuda" >
+        <span className="spanCabecalho">Ajuda</span>
       </h4>
       <h4 id="Cadastre-se" onClick={() => history.push('./login')} >
-        <span>Cadastre-se</span>
+        <span className="spanCabecalho">Cadastre-se</span>
       </h4>
       <h4 id="Entrar" onClick={() => history.push('./login')} >
-        <span>Entrar</span>
+        <span className="spanCabecalho">Entrar</span>
       </h4>
-      <button onClick={() => history.push('./pesquisa')} id="Busca" type="submit">Buscar Freelancer</button>
+      <button className="buttonCabecalho" onClick={() => history.push('./pesquisa')} id="Busca" type="submit">Buscar Freelancer</button>
     </div>
   )
 }

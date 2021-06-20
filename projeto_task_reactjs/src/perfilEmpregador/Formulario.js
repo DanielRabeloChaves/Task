@@ -19,7 +19,7 @@ export default () => {
                 <div className="subTitulo">
                     <h1 id="nome">Hotmart</h1>
                     <h4>Avaliações</h4>
-                    <button onClick={()=>history.push('./chat')} id="Chat2" type="submit">Chat</button>
+                    <button onClick={()=>history.push('./chat')} className="Chat2" type="submit">Chat</button>
                 </div>
                 <div className="texto">
                     <p><span className="cor">Local</span> . Belo Horizonte MG</p>

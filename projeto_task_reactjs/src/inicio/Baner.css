@@ -1,10 +1,8 @@
-
 .baner{
     display: flex;
     font-size: 45px;
     align-items: center;
     background-color:#376878;
-    font-size: 30px;
 }
 .baner p{
     width: 600px;
@@ -12,4 +10,18 @@
 }
 .cor{
     color: #122536;
+}
+
+@media(max-width: 1024px){
+    .baner{
+        display: flex;
+        font-size: 80px;
+        flex-direction: column;
+    }
+    .baner p{
+        width: 900px;
+    }
+    .logoBaner{
+        display: none;
+    }
 }

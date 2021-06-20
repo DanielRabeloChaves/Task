@@ -40,7 +40,7 @@
     color:black;
   }
   #imgFACEBOOK{
-    height: 30x;  
+    height: 48px;  
     width: 200px; 
     padding: 20px;
   }
@@ -59,4 +59,42 @@
     background-color: rgba(31, 199, 59, 0.753);
   }
 
+  @media(max-width: 1024px){
+    .Login{
+     font-size: 50px;
+     background-color: white;
+    }
+    #input-login,
+    #input-senha,
+    #ENTRAR{
+      font-size: 50px;
+      width: 1000px;
+      margin-bottom: 50px;
+    }
+    #ENTRAR {
+      font-size: 60px;
+      text-align: center;
+      margin-top: 100px;
+      margin-right: 200px;
+    }
+    #imgFACEBOOK{
+      height: 180px;  
+      width: 900px; 
+    }
+    #imgGOOGLE{
+      height: 150px;  
+      width: 900px; 
+      margin-bottom: 50px;
+    }
+    .Linha{
+      display: none;
+    }
+    #logoLogin{
+      display: none;
+    }
+    .form {
+      max-width: 100%;
+      max-height: 100%;
+    }
+}
  

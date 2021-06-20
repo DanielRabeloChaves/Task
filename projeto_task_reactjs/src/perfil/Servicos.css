@@ -48,7 +48,37 @@
     border: none;
     border-radius: 20px;
   }
-  #FotoContratante{
+  #FotoContratante2{
     width: 200px;
     height: 150px;
   }
+  @media(max-width: 1024px){
+    .Serviços{
+      background-color: white;
+      height: auto;
+      margin: 0px;
+      margin-bottom: 60px;
+    }
+    .Serviços > h2{
+      font-size: 60px;
+    }
+    #ServiçosPrestados{
+      margin-top: 50px;
+      font-size: 50px;
+      width: 100%;
+      height: auto;
+    }
+    .primeiro{
+        display: flex;
+        flex-direction: column;
+        margin-left: 40px;
+    }
+    .segundo{
+        display: none;
+    }
+    #FotoContratante2{
+      margin: 10px;
+      width: 400px;
+      height: 400px;
+    }
+}
